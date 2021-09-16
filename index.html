@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Functions - Nova Productions</title>  
+        <link rel="icon" type="image/png" href="/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <script src="./index.js"></script>
+        <!--<meta property="og:image" content="/apple-touch-icon.png">-->
+        <meta property="og:title" content="Functions">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <meta property="og:type" content="website"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	<body>
+        <p id="errorArea"></p>
+        <div class="inputs">
+            <input type="text" id="amountFunctions" placeholder="How many functions would you like to graph?">
+            <a onclick="inputAmountFunctions()">Submit</a>
+        </div>
+        <div class="math">
+            <input type="text" id="mathInput" placeholder="(function1) * (function2)">
+            <a onclick="mathSubmit()">Submit</a>
+        </div>
+        <div id="functionInfo"></div>
+        <div id="chartArea"></div>
+        <canvas id="mainChart" style="width:100%;max-width:700px"></canvas>
+    </body>
+</html\>

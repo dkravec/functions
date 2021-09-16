@@ -1,0 +1,9 @@
+a {
+    background-color: rgba(0, 89, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+}
+input {
+    margin: 20px;
+    padding: 10px;
+}
